@@ -39,19 +39,22 @@ body {
     color: var(--primary-text-color-light);
 }
 
-.navigation-list-link {
-    color: var(--primary-text-color-dark);
+.navigation-list {  
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
 
 }
 
+.navigation-list-link {
+    color: var(--primary-text-color-dark);
+}
+
 .contact-list-link {
     color: var(--secondary-text-color-dark);
-    font-size: 14px;
+   /* font-size: 14px;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.1;*/
 }
 
 .list {
@@ -140,6 +143,7 @@ body {
     background-color: var(--button-background-color);
     line-height: 1.6;
     border-style: none;
+    cursor: pointer;
 }
 
 .filter-btn:hover,
