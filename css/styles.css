@@ -25,7 +25,8 @@ body {
 .logo {
     font-family: var(--secondary-font-family);
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .logo-span {
     color: var(--logo-span-color);
@@ -39,10 +40,12 @@ body {
     color: var(--primary-text-color-light);
 }
 
-.navigation-list {  
+.navigation-list,
+.contact-list {  
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
 }
 
@@ -78,46 +81,56 @@ body {
 .main-title {
     color: var(--primary-text-color-light);
     font-size: 44px;
-    line-height: 1.4;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
 }
 
 .hero-button {
     background-color: var(--button-active-color);
     color: var(--primary-text-color-light);
+    font-family: var(--primary-font-family);
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .specialty-subtitle {
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 .specialty-description {
     font-size: 14px;
-    font-weight: 400;
     color: var(--secondary-text-color-dark);
-    line-height: 1.7;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .services-title,
 .team-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .team-list-item-title {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .team-list-item-description {
     font-size: 14px;
     color: var(--secondary-text-color-dark);
-    line-height: 1.4;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .contacts {
@@ -126,8 +139,9 @@ body {
 
 .address-list-item {
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     font-style: normal;
+    letter-spacing: 0.03em;
 }
 .address-list-item-map {
     color: var(--primary-text-color-light);
@@ -138,12 +152,15 @@ body {
 }
 
 .filter-btn {
+    font-family: var(--primary-font-family);
     font-size: 16px;
     font-weight: 500;
+    color: var(--primary-text-color-dark);
     background-color: var(--button-background-color);
-    line-height: 1.6;
+    line-height: 1.63;
     border-style: none;
     cursor: pointer;
+    letter-spacing: 0.03em;
 }
 
 .filter-btn:hover,
@@ -156,11 +173,13 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
+    letter-spacing: 0.06em;
 
 }
 
 .project-list-item-descr {
     font-size: 16px;
     color: var(--secondary-text-color-dark);
-    line-height: 1.9;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
