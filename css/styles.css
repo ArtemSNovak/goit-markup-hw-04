@@ -5,7 +5,7 @@
     --button-active-color: #2196F3;
     --button-background-color: #F5F4FA;
     --bg-color-dark: #2F303A;
-    --bg-color-light: #ffffff;
+    --bg-color-light: #f5f4fa;
     --primary-font-family: 'Roboto',
         sans-serif;
     --secondary-font-family: 'Raleway',
@@ -249,6 +249,10 @@ img {
 
 
 /* ----Team-section---- */
+
+.team {
+    background-color: var(--bg-color-light);
+}
 
 .team-list {
     display: flex;
