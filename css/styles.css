@@ -213,7 +213,7 @@ img {
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 
 }
 
@@ -238,7 +238,7 @@ img {
 .services-list {
     display: flex;
     /* flex-wrap: wrap; */
-    padding: 15px;
+    padding: 0 15px;
     justify-content: space-between;
     /* margin-left: calc(-1 * 30px));
     margin-top: calc(-1 * 30px)); */
@@ -256,7 +256,7 @@ img {
 
 .team-list {
     display: flex;
-    padding: 15px;
+    padding: 0 15px;
     justify-content: space-between;
 }
 
@@ -293,7 +293,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 /* ----footer---- */
 
 .contacts {
-    padding: 60px;
+    padding: 60px 0;
     background-color: var(--bg-color-dark);
 }
 
@@ -307,6 +307,11 @@ footer  .logo {
     line-height: 1.71;
     font-style: normal;
     letter-spacing: 0.03em;
+    /* margin-bottom: 9px; */
+}
+
+.address-list-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 .address-list-item-map {
     color: var(--primary-text-color-light);
@@ -322,7 +327,7 @@ footer  .logo {
 .filters-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 
 
 }
