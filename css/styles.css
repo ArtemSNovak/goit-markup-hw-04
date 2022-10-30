@@ -47,6 +47,7 @@ img {
 svg {
     padding: 0;
     margin: 0;
+    fill: currentColor;
 }
 
 .list {
@@ -97,6 +98,7 @@ svg {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin: 0;
 }
 
 .logo-span {
@@ -436,6 +438,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 /* ----footer---- */
 
 .contacts {
+   
     padding: 60px 0;
     background-color: var(--bg-color-dark);
 }
@@ -443,6 +446,33 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 footer  .logo {
     margin-bottom: 20px;
     width: 60px;
+}
+
+footer > div {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-contacts {
+    margin-right: 70px;
+}
+.footer-title {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+}
+
+
+.footer-social {
+    /* margin-top: 72px; */
+}
+
+.address-group {
+    width: 231px;
 }
 
 .address-list-item {
@@ -463,6 +493,26 @@ footer  .logo {
 .address-list-item-link {
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-social-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    color: var(--primary-text-color-light);
+    background-color: var(--button-background-color) gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--button-active-color);
+    color: var(--button-background-color);
+}
+
 
 /* Portfolio */
 /* Filter */
