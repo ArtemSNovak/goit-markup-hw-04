@@ -12,6 +12,7 @@
         sans-serif;
     --logo-span-color: #2196F3;
     --logo-main-color: #000000;
+    --main-link-colour: #AFB1B8;
 }
 
 /* ---------RESET--------- */
@@ -86,6 +87,8 @@ svg {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+
 
 
 /*--Header--*/
@@ -196,10 +199,10 @@ svg {
     margin-bottom: 30px;
 }
 
-.feature-icon {
+/* .feature-icon {
     content: "";
     fill: currentColor;
-}
+} */
 
 .main-title {
     color: var(--primary-text-color-light);
@@ -340,8 +343,95 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 16px;
    
 }
+
+.team-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.team-social:not(:last-child) {
+    /* margin-right: 10px; */
+    
+}
+
+.team-social-item {
+    width: 44px;
+    height: 44px;
+   
+}
+
+.team-social-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    color: var(--main-link-colour);
+    background-color: var(--button-background-color)
+    gap: 10px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--button-active-color);
+    color: var(--button-background-color);
+}
+
+.team-social-icon {
+    fill: currentColor;
+}
+
+
+/* Наші клієнти */
+
+.client-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-dark);
+    margin-bottom: 50px;
+}
+
+.client-list {
+    display: flex;
+    fill: var(--main-link-colour);
+ 
+    align-items: center;
+        justify-content: center;
+
+}
+.client-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-item {
+        width: 170px;
+        height: 92px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+    }
+.client-link {
+    color: var(--main-link-colour);
+}
+
+.client-item:hover,
+.client-item:focus {
+    color: var(--button-active-color);
+}
+
+.client-icon {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+
+
 
 /* ----footer---- */
 
