@@ -402,7 +402,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 
 .client-list {
     display: flex;
-    fill: var(--main-link-colour);
+    /* fill: var(--main-link-colour); */
  
     align-items: center;
         justify-content: center;
@@ -412,19 +412,21 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     margin-right: 30px;
 }
 
-.client-item {
-        width: 170px;
-        height: 92px;
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
-    }
 .client-link {
+    display: flex;
     color: var(--main-link-colour);
+    width: 170px;
+    height: 92px;
+        border: 1px solid var(--main-link-colour);
+        border-radius: 4px;
+    
+            
 }
 
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-link:focus {
     color: var(--button-active-color);
+    border-color: var(--button-active-color);
 }
 
 .client-icon {
